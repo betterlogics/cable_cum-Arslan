@@ -4,9 +4,8 @@
 }
 
 body {
-    background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
+    
 }
 
 .container {
@@ -88,6 +87,7 @@ body {
     display: inline-block;
     align-items: center;
     margin-top: 35px;
+    margin-left: 39%;
     text-decoration: none;
     background: blue;
     padding: 16px 15px;
