@@ -1,11 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+  
 }
 
 body {
     background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
-    
+    background-attachment: fixed;
+    font-family: 'Kantumruy Pro', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+   
 }
 
 .container {
@@ -19,6 +28,13 @@ body {
     width: 100%;
     height: 100px;
     background: #fff;
+    position: sticky;
+top: 0;
+font-family: 'Kantumruy Pro', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -27,14 +43,15 @@ body {
 }
 
 .logo img {
-    width: 20%;
+    width: 18%;
     float: left;
-    margin-top: 2px;
-    margin-right: 76px;
-}
+    margin-top: 15px;
+    margin-right: 130px;
+    margin-left: -27px;}
 
 .header-navbar ul {
     list-style-type: none;
+    float: right;
 }
 
 .header-navbar li {
@@ -42,7 +59,7 @@ body {
 }
 
 .header-navbar li a {
-    font-family: Lato;
+    
     text-transform: uppercase;
     font-weight: 300;
     font-size: 16px;
@@ -71,25 +88,105 @@ body {
 
 .hero h1 {
     color: #fff;
-    margin-bottom: 34px;
-    text-align: center;
-    font-size: 46px;
+margin-bottom: 34px;
+text-align: center;
+font-size: 61px;
+width: 99%;
 }
 
 .hero p {
     color: #fff;
     text-align: center;
-    font-size: 20px;
-}
+    font-size: 17px;
+    margin: 3px 0px 2px 28px;
+    padding: 1px 2px 4px 2px;
+    width: 96%;}
 
 .hero a {
     color: #fff;
     display: inline-block;
     align-items: center;
-    margin-top: 35px;
+    margin-top: 36px;
     margin-left: 39%;
     text-decoration: none;
-    background: blue;
-    padding: 16px 15px;
-    color: white
+    background: rgb(0, 159, 255);
+    padding: 15px 42px;
+    color: white;
+}
+.hero a:hover{
+    background-color: rgb(87, 87, 158);
+transition: 1s;
+}
+ /* box section of main contant */
+ #box{
+    display: flex;
+    margin: -107px 34px;
+    
+ }
+ 
+ 
+.boxes{
+    margin: 24px;
+    padding: 34px;
+    color: rgb(255, 255, 255);
+    width: 313px;
+    height: 237px;
+   
+  }
+  
+
+    .first {
+        
+        background-color: rgb(89, 177, 255);
+    }
+.second{
+ 
+    background-color: rgb(255, 109, 75);
+   
+}
+.third{
+  
+    background-color: rgb(255, 224, 47);
+   
+}
+/* head and paragraph of box  */
+.main{
+    margin: 28px 2px;
+    padding: 2px 2px;
+    color: white;
+}
+.para{
+    margin: 31px 2px;
+    padding: 2px 2px;
+  color: white;
+}
+
+
+/* circle of box  */
+.circle {
+    fill: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-top-width: 1px;
+    border-top-color: rgb(125, 79, 79);
+    border-top-style: none;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    border-right-width: 1px;
+    border-right-color: rgb(125, 79, 79);
+    border-right-style: none;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(125, 79, 79);
+    border-bottom-style: none;
+    border-bottom-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+    border-left-width: 1px;
+    border-left-color: rgb(125, 79, 79);
+    border-left-style: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    background-image: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
