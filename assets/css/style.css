@@ -121,8 +121,16 @@ transition: 1s;
  #box{
     display: flex;
     margin: -107px 34px;
-    
  }
+/* #box::before{
+    content: "";
+    position: absolute;
+    background: url(lmage.png);
+    height: 57%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+} */
  
  
 .boxes{
