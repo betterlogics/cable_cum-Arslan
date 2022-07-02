@@ -1,12 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-  
-}
-
-body {
-    background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
-    background-attachment: scroll;
     font-family: 'Kantumruy Pro', sans-serif;
 
     font-family: 'Playfair Display', serif;
@@ -15,11 +9,23 @@ body {
 
     font-family: 'Roboto', sans-serif;
    
+  
 }
 
-.container {
-    width: 100%;
+body {
+    background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
+    background-attachment: fixed;
+    width: auto;
+    padding-bottom:0px;
+    padding-top:-2px;
+
+    
+   
 }
+
+/* .container {
+    width: 100%;
+} */
 
 
 /*----------------------header-section-start-------------------------------*/
@@ -124,7 +130,15 @@ transition: 1s;
     
  }
 #box::before{
-   background-color: #fff;
+    content: "";
+    background-image: url(image.png);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
 }
  
  
@@ -192,4 +206,10 @@ transition: 1s;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+/* center contant of web  */
+.center{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
 }
