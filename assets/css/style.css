@@ -6,7 +6,7 @@
 
 body {
     background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
-    background-attachment: fixed;
+    background-attachment: scroll;
     font-family: 'Kantumruy Pro', sans-serif;
 
     font-family: 'Playfair Display', serif;
@@ -121,16 +121,11 @@ transition: 1s;
  #box{
     display: flex;
     margin: -107px 34px;
+    
  }
-/* #box::before{
-    content: "";
-    position: absolute;
-    background: url(lmage.png);
-    height: 57%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.5;
-} */
+#box::before{
+   background-color: #fff;
+}
  
  
 .boxes{
