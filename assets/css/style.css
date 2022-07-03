@@ -125,29 +125,18 @@ width: 99%;
 transition: 1s;
 }
  /* box section of main contant */
- #box{
+ .box{
     display: flex;
     margin: -107px 34px;
     
  }
-#box::before{
-    content: "";
-    background-image: url(image.png);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    opacity: 1;
-}
  
  
 .boxes{
-    margin: 24px;
+    margin: 15px;
     padding: 34px;
     color: rgb(255, 255, 255);
-    width: 313px;
+    width: 332px;
     height: 237px;
    
   }
@@ -239,15 +228,49 @@ color: rgb(0, 0, 0);
     justify-content: center;
 }
 /* section bandle of web  */
-#bandle{
- text-align: center;
- margin-top: 96px;
+
+.ble{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: -67px;
+    margin-top: 82px;
+  
 }
-#bandle h1{
-    font-size: 33px;
-   }
-   .rat{
+.box2{
     display: flex;
-    margin:  15px 62px;
-   }
+    margin-top: 97px;
+}
+.hd{
+    font-size: 36px;
+    text-align: center;
+}
+.price{
+    text-align: center;
+    font-size: 22px;
+padding-top: 20px;
+}
+.para2{
+    margin: 31px -13px;
+
+color: white;
+font-size: 14px;
+}
+  
+.boxes2{
+    margin-top: 16px;
+    margin-bottom: 16px;
+  padding: 34px;
+  color: rgb(255, 255, 255);
+  width: 326px;
+  height: 290px;
+  margin-right: -14px;
+  margin-left: 48px;
    
+  }
+ .order{
+    text-decoration: none;
+    margin-bottom: 2px;
+    color: white;
+    font-size: 25px;
+
+  }
