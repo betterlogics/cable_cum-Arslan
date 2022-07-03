@@ -276,7 +276,7 @@ font-size: 14px;
   }
 /* helping section */
 #help{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(241, 241, 241, 0.952);
     width: 100%;
     height: 41pc;
     margin-top: 122px;
@@ -319,14 +319,22 @@ margin: -36px  70px 2px 2px;
 
 .priority{
     margin: 15px;
-    margin: 123px 13px 6px 70px;
+    margin: 123px 13px 6px 19px;
     padding: 34px;
     color: rgb(0, 0, 0);
     background-color: #fff;
-    width: 488px;
+    width: 592px;
     height: 400px;
    
   }
+  .priority .call{
+color: rgb(240, 110, 50);
+margin: 24px 2px 22px 14px;
+}
+.priority .text{
+    margin: 2px 2px 2px 2px;
+   padding: 2px 2px 2px 2px;
+    }
   .back {
     background: url("http://cablecomservices.com/wp-content/uploads/2021/02/landscape-nature-rock-wilderness-sunrise-sunset-712348-pxhere-com-1.jpg") no-repeat center center/cover ;
     background-attachment: fixed;
@@ -334,3 +342,57 @@ margin: -36px  70px 2px 2px;
     width: 100%;
     height: 48pc;
 }
+.img3 img{
+    width: 565px;
+    margin: 156px 2px 2px 2px;}
+/* form section of wed  */
+.img5{
+  
+    width: 585px;
+    min-height: 485px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url("http://cablecomservices.com/wp-content/uploads/2021/02/laptop-desk-notebook-computer-macbook-work-921962-pxhere-com-1.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    margin: 145px 1px 2px 104px;
+  }
+  #form{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 45pc;
+  }
+  #contact-box{
+    display: block;
+justify-content: center;
+align-items: center;
+padding-bottom: 34px;
+width: 33%;
+margin: -491px 2px 26px 689px;
+height: 542px;
+
+
+  }
+  #contact-box input,
+  #contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 17px;
+    margin: 5px 0px 11px 0px;
+  }
+  #contact-box form{
+    width: 40%;
+    
+  }
+  #contact-box label{
+    font-size: 25px;
+  }
+  footer{
+    text-align: center;
+    width: 100%;
+    height: 3pc;
+  }
+  footer p{
+    margin: 48px 2px -9px 2px;
+    font-size: 16px;
+  }
